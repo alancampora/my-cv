@@ -1,0 +1,10 @@
+@import './Header.css';
+@import './Left.css';
+@import './Content.css';
+.Layout {
+    display: flex;
+    /*simulates A4 resolution*/
+    width: 794px;
+    height: 1122px;
+    margin: 0 auto;
+}

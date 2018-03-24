@@ -1,10 +1,23 @@
 .BubbleData {
     margin: 1rem;
+    display: flex;
+    align-items: center;
 }
 .BubbleData-Header {
     font-size: 1.2rem;
 }
-
+.BubbleData-Photo {
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.BubbleData-Photo-Img {
+    height: 100%;
+}
+.BubbleData-Right {
+    padding: 0.5rem;
+}
 .BubbleData-Description {
     padding: 0.5rem;
 }

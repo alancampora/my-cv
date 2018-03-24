@@ -1,0 +1,22 @@
+.Left {
+    padding: 1rem;
+    flex: 1;
+    background-color: #272626;
+}
+.Left-PhotoContainer {
+    text-align: center;
+    padding: 0.5rem;
+}
+.Left-PhotoContainer img {
+    height: 150px;
+    border-radius: 100%;
+}
+
+.Left-Description {
+    padding: 0.5rem;
+    color: #23db86bd;
+    font-weight: 900;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    text-align: justify;
+}
