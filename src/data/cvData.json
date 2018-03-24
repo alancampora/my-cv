@@ -1,0 +1,24 @@
+{
+    "experience": [
+        {
+            "date": {
+                "from": "01/06/2014",
+                "to": "Now"
+            },
+            "position": "Software engineer",
+            "company": "Sovanta AG",
+            "description":
+                "Web and Mobile development: architecture, analysis, implementation. Creating custom web/mobile apps, mainly for hr projects, and also component libraries with sapui5/openui5 technologies and cross web tools such as less, grunt, cordova, oData."
+        },
+        {
+            "date": {
+                "from": "01/12/2012",
+                "to": "01/06/2014"
+            },
+            "position": "Software engineer",
+            "company": "Xerox",
+            "description":
+                "ICI Project - Banco Hipotecario Integration of Kofax 10 y and DocuShare. Creation of custom scripts for OCR in VB.net. Development of an interface to communicate both systems using Java.During my last six months, I became the leader of the Engineer team (Eng. PS&I Area) , where I was in charge of coordinating the work of other developers."
+        }
+    ]
+}
