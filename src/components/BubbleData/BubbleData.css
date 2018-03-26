@@ -4,13 +4,26 @@
     align-items: center;
 }
 .BubbleData-Header {
-    font-size: 1.2rem;
+    font-size: 1em;
+    text-transform: capitalize;
+    font-weight: 900;
 }
 .BubbleData-Photo {
     width: 75px;
     height: 75px;
     overflow: hidden;
-    border-radius: 50%;
+}
+.BubbleData-Bubble {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 100%;
+}
+.BubbleData-Line {
+    height: 100px;
+    width: 2px;
+    margin: 0 auto;
+    background-color: green;
 }
 .BubbleData-Photo-Img {
     height: 100%;
@@ -19,5 +32,6 @@
     padding: 0.5rem;
 }
 .BubbleData-Description {
-    padding: 0.5rem;
+    font-size: 0.9em;
+    padding: 0.5rem 0rem;
 }
