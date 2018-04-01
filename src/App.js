@@ -3,7 +3,10 @@ import Layout from './components/Layout/Layout';
 import Content from './components/Layout/Content';
 import Left from './components/Layout/Left';
 import Header from './components/Layout/Header';
-import BubbleData from './components/BubbleData/BubbleData';
+import HeaderMain from './components/Layout/HeaderMain';
+import Text from './components/Text/Text';
+import Section from './components/Section/Section';
+import HeaderDescription from './components/HeaderDescription/HeaderDescription';
 import {getCVData, log} from './actions/actions';
 
 class App extends Component {
@@ -11,25 +14,21 @@ class App extends Component {
         super(props);
         this.state = getCVData();
     }
-
+       
     render() {
-        let experience = this.state.experience;
-
-        return (
+         return (
             <div>
                 <Layout>
-                    <Left
-                        description={this.state.goals}
-                        photo={this.state.photo}
-                    />
+                    <HeaderMain photo={this.state.photo} title={this.state.name} subtitle={this.state.title}/>
                     <Content>
-                        <Header
-                            name={this.state.name}
-                            title={this.state.title}
-                        />
-                        {experience.map((experience, index) => (
-                            <BubbleData key={index} {...experience} />
-                        ))}
+                        <Section title="goals" icon="fas fa-angle-right fa-2x"> 
+                            <Text>
+                                {this.state.goals}
+                            </Text>
+                        </Section>
+                        <Section title="experience" icon="fas fa-angle-right fa-2x">
+                                {<HeaderDescription description={this.state.experience}/>}
+                        </Section>
                     </Content>
                 </Layout>
             </div>

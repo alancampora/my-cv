@@ -8,23 +8,98 @@
     "experience": [
         {
             "date": {
-                "from": "01/06/2014",
+                "from": "01/03/2018",
                 "to": "Now"
             },
-            "position": "Software engineer",
+            "photo":"https://media.licdn.com/dms/image/C560BAQFz0X8CH85JOw/company-logo_100_100/0?e=2121814800&v=alpha&t=ytlfVxN2i9-gxacC6nG_Dmu32bLUvkfFhxTKQO278jw",
+            "position": "Senior Software Engineer - Front End",
+            "company": "Medallia",
+            "description": {
+                "lines":[
+                 "Think about the last interaction you had with a company. Was it a good one? Could it have been better? Medallia was founded on a simple idea: that companies can win by putting the customer first.",
+                 "Medallia gives the world’s leading brands access to their customers’ eyes, ears, and hearts so they can design and deliver incredible customer experiences. Our cloud-based software captures and analyzes customer feedback across multiple channels to help companies like Airbnb, Mercedes-Benz, Delta Air Lines, and Nordstrom earn the love of their customers.",
+                 "We’re one of Sequoia Capital's largest investments, and we’re growing like crazy." 
+                ],
+                "links":[
+                    "https://youtu.be/Pw8HmDML_KM"
+                ]
+            } 
+        },
+        {
+            "date": {
+                "from": "01/06/2014",
+                "to": "01/03/2018"
+            },
+            "photo":"https://media.licdn.com/dms/image/C510BAQGGf7b0u-n9gA/company-logo_400_400/0?e=2121814800&v=alpha&t=7rrRCHmclt1W9qiJdEcTTmxnEt1-5Diqd59hbmIBfT0",
+            "position": "Software engineer - Front End",
             "company": "Sovanta AG",
-            "description":
-                "Web and Mobile development: architecture, analysis, implementation. Creating custom web/mobile apps, mainly for hr projects, and also component libraries with sapui5/openui5 technologies and cross web tools such as less, grunt, cordova, oData."
+            "description":{
+                "lines":[
+                    "Web and Mobile development: architecture, analysis, implementation.",
+                    "Creating custom web/mobile apps, mainly for hr projects, and also component libraries with sapui5/openui5 technologies and cross web tools such as less, grunt, cordova, oData."
+                ]
+            }
+                
         },
         {
             "date": {
                 "from": "01/12/2012",
                 "to": "01/06/2014"
             },
+            "photo":"https://media.licdn.com/mpr/mpr/shrinknp_100_100/AAMAAgQIAAkAAQAAAAAAAA7-AAAAJGNjNDIwYzAxLWY4ODItNGE0OS1hOWFhLTk3NGIyNDlhZTA1Yg.bin",
             "position": "Software engineer",
             "company": "Xerox",
-            "description":
-                "ICI Project - Banco Hipotecario Integration of Kofax 10 y and DocuShare. Creation of custom scripts for OCR in VB.net. Development of an interface to communicate both systems using Java.During my last six months, I became the leader of the Engineer team (Eng. PS&I Area) , where I was in charge of coordinating the work of other developers."
+            "description":{
+                "lines":[
+                    "ICI Project - Banco Hipotecario: Integration of Kofax 10 y and DocuShare. Creation of custom scripts for OCR in VB.net.",
+                    "During my last six months, I became the leader of the Engineer team (Eng. PS&I Area) , where I was in charge of coordinating the work of other developers."
+                ]
+            }
+        }, 
+        {
+            "date": {
+                "from": "01/06/2010",
+                "to": "01/12/2012"
+            },
+            "photo":"https://media.licdn.com/mpr/mpr/shrinknp_100_100/AAMAAgQIAAkAAQAAAAAAABC-AAAAJDA1NmQ0NGIzLTM4ZTktNDkyYS04NzgyLTViYzYwYzViZTgyNQ.bin",
+            "position": "Smalltalk developer",
+            "company": "IBM",
+            "description":{
+                "lines":[
+                    "Working for two projects - ACE+ , ICES.", 
+                    "OOP in smalltalk, Unit Testing and SIT.",
+                    "Tools: RTC, RQM, MQ, DB2. Writing requirements for IBM LIQUID Competitions."
+                ]
+            }
+        }, 
+        {
+            "date": {
+                "from": "01/09/2009",
+                "to": "01/06/2010"
+            },
+            "photo":"https://media.licdn.com/mpr/mpr/shrinknp_100_100/AAMAAgQIAAkAAQAAAAAAAA7bAAAAJDgyZTc0ODVlLWRhZGYtNGM2YS05NjkzLWNkMjc0ZDQxYTEyMA.bin",
+            "position": "Developer",
+            "company": "GCBA - Instituto de Vivienda",
+            "description":{
+                "lines":[
+                    "C#, sql and crystal reports." 
+                ]
+            }
+        }, 
+        {
+            "date": {
+                "from": "01/06/2008",
+                "to": "01/09/2009"
+            },
+            "photo":"https://media.licdn.com/mpr/mpr/shrinknp_100_100/AAMAAgQIAAkAAQAAAAAAAA7bAAAAJDgyZTc0ODVlLWRhZGYtNGM2YS05NjkzLWNkMjc0ZDQxYTEyMA.bin",
+            "position": "Senior Software Engineer - Front End",
+            "position": "Helpdesk",
+            "company": "GCBA - Instituto de Vivienda",
+            "description":{
+                "lines":[
+                    "Repairing HW y SW. Helping users with their daily issues."
+                ]
+            }
         }
     ]
 }

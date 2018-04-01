@@ -1,0 +1,15 @@
+.Section-Header{
+    display: inline-flex;
+    align-items: center;
+    color:#007f00;
+}
+.Section-Title{
+    text-transform: uppercase;
+}
+.Section-Icon{
+    padding:0.5rem;
+}
+
+.Section-Content{
+    padding: 0.5rem 0.5rem;
+}

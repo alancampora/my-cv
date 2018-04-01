@@ -1,0 +1,26 @@
+.HeaderMain{
+   font-family: 'Francois One', sans-serif;
+   font-size: 2em;
+   display: flex;
+   align-items: center;
+   background-color: #272626;
+   color: #23db86bd;
+   padding:0.5rem 2rem;
+   text-transform: uppercase;
+}
+
+.HeaderMain-Photo{
+    padding:0.5rem;
+}
+.HeaderMain-Photo img{
+    height: 120px;
+    width: 120px;
+    border-radius:100%;
+}
+
+.HeaderMain-Title{
+    font-size:1em;
+}
+.HeaderMain-Subtitle{
+    font-size:0.75em;
+}

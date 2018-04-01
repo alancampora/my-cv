@@ -1,0 +1,13 @@
+.Text{
+    margin:0;
+    font-size: 0.875em;
+}
+.Text-Title{
+    text-transform: uppercase;
+}
+.Text-Subtitle{
+    font-weight: 400;
+}
+.Text-Paragraph{
+    margin:0.5rem;
+}

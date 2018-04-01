@@ -1,24 +1,24 @@
 import React from 'react';
+import Text from '../Text/Text';
 
-const BubbleData = ({company, position, description, date, photo}) => {
+const BubbleData = ({company, position, photo, children, date}) => {
     let formattedDates = {
         from: new Date(date.from),
         to: new Date(date.to)
     };
     return (
         <div className="BubbleData">
-            <div className="BubbleData-Left">
-                <div className="BubbleData-Bubble" />
-                <div className="BubbleData-Line" />
-            </div>
-
-            <div className="BubbleData-Right">
-                <div className="BubbleData-Header">
-                    {' '}
-                    {date.from} - {date.to} : {position} @ {company}
+            <div className="BubbleData-Header">
+                <div className="CompanyPhoto">
+                    <img src={photo}></img>
                 </div>
-                <div className="BubbleData-Description">{description} </div>
+                <div>
+                    <Text type="Title">{position}</Text>
+                    <Text type="Subtitle">{company}</Text>
+                    <Text type="Subtitle">{date.from} - {date.to}</Text>
+                </div>
             </div>
+            <div className="BubbleData-Description">{children} </div>
         </div>
     );
 };
