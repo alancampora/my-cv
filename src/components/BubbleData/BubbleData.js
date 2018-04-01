@@ -1,7 +1,7 @@
 import React from 'react';
 import Text from '../Text/Text';
 
-const BubbleData = ({company, position, photo, children, date}) => {
+const BubbleData = ({at, role, photo, children, date}) => {
     let formattedDates = {
         from: new Date(date.from),
         to: new Date(date.to)
@@ -13,8 +13,8 @@ const BubbleData = ({company, position, photo, children, date}) => {
                     <img src={photo}></img>
                 </div>
                 <div>
-                    <Text type="Title">{position}</Text>
-                    <Text type="Subtitle">{company}</Text>
+                    <Text type="Title">{role}</Text>
+                    <Text type="Subtitle">{at}</Text>
                     <Text type="Subtitle">{date.from} - {date.to}</Text>
                 </div>
             </div>

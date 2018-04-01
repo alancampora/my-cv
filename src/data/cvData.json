@@ -12,8 +12,8 @@
                 "to": "Now"
             },
             "photo":"https://media.licdn.com/dms/image/C560BAQFz0X8CH85JOw/company-logo_100_100/0?e=2121814800&v=alpha&t=ytlfVxN2i9-gxacC6nG_Dmu32bLUvkfFhxTKQO278jw",
-            "position": "Senior Software Engineer - Front End",
-            "company": "Medallia",
+            "role": "Senior Software Engineer - Front End",
+            "at": "Medallia",
             "description": {
                 "lines":[
                  "Think about the last interaction you had with a company. Was it a good one? Could it have been better? Medallia was founded on a simple idea: that companies can win by putting the customer first.",
@@ -31,8 +31,8 @@
                 "to": "01/03/2018"
             },
             "photo":"https://media.licdn.com/dms/image/C510BAQGGf7b0u-n9gA/company-logo_400_400/0?e=2121814800&v=alpha&t=7rrRCHmclt1W9qiJdEcTTmxnEt1-5Diqd59hbmIBfT0",
-            "position": "Software engineer - Front End",
-            "company": "Sovanta AG",
+            "role": "Software engineer - Front End",
+            "at": "Sovanta AG",
             "description":{
                 "lines":[
                     "Web and Mobile development: architecture, analysis, implementation.",
@@ -47,8 +47,8 @@
                 "to": "01/06/2014"
             },
             "photo":"https://media.licdn.com/mpr/mpr/shrinknp_100_100/AAMAAgQIAAkAAQAAAAAAAA7-AAAAJGNjNDIwYzAxLWY4ODItNGE0OS1hOWFhLTk3NGIyNDlhZTA1Yg.bin",
-            "position": "Software engineer",
-            "company": "Xerox",
+            "role": "Software engineer",
+            "at": "Xerox",
             "description":{
                 "lines":[
                     "ICI Project - Banco Hipotecario: Integration of Kofax 10 y and DocuShare. Creation of custom scripts for OCR in VB.net.",
@@ -62,8 +62,8 @@
                 "to": "01/12/2012"
             },
             "photo":"https://media.licdn.com/mpr/mpr/shrinknp_100_100/AAMAAgQIAAkAAQAAAAAAABC-AAAAJDA1NmQ0NGIzLTM4ZTktNDkyYS04NzgyLTViYzYwYzViZTgyNQ.bin",
-            "position": "Smalltalk developer",
-            "company": "IBM",
+            "role": "Smalltalk developer",
+            "at": "IBM",
             "description":{
                 "lines":[
                     "Working for two projects - ACE+ , ICES.", 
@@ -78,8 +78,8 @@
                 "to": "01/06/2010"
             },
             "photo":"https://media.licdn.com/mpr/mpr/shrinknp_100_100/AAMAAgQIAAkAAQAAAAAAAA7bAAAAJDgyZTc0ODVlLWRhZGYtNGM2YS05NjkzLWNkMjc0ZDQxYTEyMA.bin",
-            "position": "Developer",
-            "company": "GCBA - Instituto de Vivienda",
+            "role": "Developer",
+            "at": "GCBA - Instituto de Vivienda",
             "description":{
                 "lines":[
                     "C#, sql and crystal reports." 
@@ -92,14 +92,33 @@
                 "to": "01/09/2009"
             },
             "photo":"https://media.licdn.com/mpr/mpr/shrinknp_100_100/AAMAAgQIAAkAAQAAAAAAAA7bAAAAJDgyZTc0ODVlLWRhZGYtNGM2YS05NjkzLWNkMjc0ZDQxYTEyMA.bin",
-            "position": "Senior Software Engineer - Front End",
-            "position": "Helpdesk",
-            "company": "GCBA - Instituto de Vivienda",
+            "role": "Helpdesk",
+            "at": "GCBA - Instituto de Vivienda",
             "description":{
                 "lines":[
                     "Repairing HW y SW. Helping users with their daily issues."
                 ]
             }
         }
+    ], 
+    "education":[
+        {
+            "at": "Universidad Tecnologica Nacional", 
+            "role": "Software Engineer, Systems", 
+            "photo":"https://media.licdn.com/mpr/mpr/shrinknp_100_100/AAMAAwQIAAkAAQAAAAAAABHzAAAAJGE3MDVmNjY3LTExNTItNDIyMy1hNTViLWRhMjUzZDYwNjYxYg.bin",
+            "date":{
+                "from":"2008", 
+                "to":"2014"
+            }
+        }, 
+        {
+            "at": "E T N 37", 
+            "role": "Computer", 
+            "date":{
+                "from":"2002", 
+                "to":"2007"
+            }
+        }
+
     ]
 }

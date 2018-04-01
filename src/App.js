@@ -29,6 +29,9 @@ class App extends Component {
                         <Section title="experience" icon="fas fa-angle-right fa-2x">
                                 {<HeaderDescription description={this.state.experience}/>}
                         </Section>
+                        <Section title="education" icon="fas fa-angle-right fa-2x">
+                                {<HeaderDescription description={this.state.education}/>}
+                        </Section>
                     </Content>
                 </Layout>
             </div>

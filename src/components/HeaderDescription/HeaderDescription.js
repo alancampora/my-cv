@@ -4,12 +4,14 @@ import Text from '../Text/Text';
 
 let Experience = ({ description }) => description.map((experience, index) => (
 
-    <BubbleData key={index} company={experience.company}
-        date={experience.date} position={experience.position} photo={experience.photo}>
-
-        { experience.description.lines.map((line, index) =>
-            <Text index={index} type="Paragraph"> {line} </Text>
-        )}
+    <BubbleData key={index} at={experience.at}
+        date={experience.date} role={experience.role} photo={experience.photo}>
+        {
+            experience.description 
+            ? experience.description.lines.map((line, index) =>
+                       <Text index={index} type="Paragraph"> {line} </Text>)
+            :""
+        }
 
     </BubbleData>
 ))
