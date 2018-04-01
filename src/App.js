@@ -19,7 +19,8 @@ class App extends Component {
          return (
             <div>
                 <Layout>
-                    <HeaderMain photo={this.state.photo} title={this.state.name} subtitle={this.state.title}/>
+                    <HeaderMain photo={this.state.photo} title={this.state.name} 
+                        subtitle={this.state.title} data={this.state.data}/>
                     <Content>
                         <Section title="goals" icon="fas fa-angle-right fa-2x"> 
                             <Text>

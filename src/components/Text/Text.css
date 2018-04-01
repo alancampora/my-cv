@@ -11,3 +11,7 @@
 .Text-Paragraph{
     margin:0.5rem;
 }
+.Text-Data{
+    font-size:0.4em;
+    text-transform: lowercase;
+}

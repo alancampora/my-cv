@@ -1,12 +1,9 @@
 .HeaderMain{
-   font-family: 'Francois One', sans-serif;
    font-size: 2em;
-   display: flex;
-   align-items: center;
-   background-color: #272626;
-   color: #23db86bd;
+   text-align:center;
    padding:0.5rem 2rem;
    text-transform: uppercase;
+   background-color:white;
 }
 
 .HeaderMain-Photo{
@@ -16,6 +13,7 @@
     height: 120px;
     width: 120px;
     border-radius:100%;
+    border: 2px solid black;
 }
 
 .HeaderMain-Title{
@@ -23,4 +21,8 @@
 }
 .HeaderMain-Subtitle{
     font-size:0.75em;
+}
+.HeaderMain-Data{
+    display:flex;
+    padding: 1rem;
 }

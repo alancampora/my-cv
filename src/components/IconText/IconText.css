@@ -1,0 +1,11 @@
+.IconText{
+    display:flex;
+    align-items:center;
+    flex: 1;
+}
+.IconText-Img{
+    height:20px;
+}
+
+
+
